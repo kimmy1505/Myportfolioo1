@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lexend", serif;
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+    flex-basis: 400px;
+}
+
+.hero-img{
+    flex-wrap: 1;
+}
+
+.hero-heading{
+    flex-wrap: 1;
+}
+
+.name{
+    font-family: "Cedarville Cursive", serif;
+    font-size: small;
+}
+
+#main-div{
+    padding: 100px;
+}
+
+.burger-menu-btn{
+    display: none;
+}
+
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    z-index: 9998;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.site-identity{
+    display: flex;
+    gap: 30px;
+}
+
+.site-identity{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.hero-heading{
+    font-size: 72px;
+}
+
+.hero-heading button{
+    background-color: brown;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.menu-container-mobile{
+    display: none;
+}
+
+.menu-btn{
+    background-color: brown;
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.menu-btn:hover{
+    background-color: brown;
+    border-radius: 20px;
+    transition: all;
+}
+
+.menu-btn a{
+    background-color: brown;
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.menu-btn a:hover{
+    font-weight: 400;
+}
+.small-img{
+    position: absolute;
+    top: 150px;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+}
+
+.sub-head{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.hero-button button{
+    padding: 20px 40px;
+
+}
+
+.hero-button button:hover{
+    background: brown;   
+}
+
+.small-text{
+    font-size: 15px;
+    color: black;
+    opacity: 0.3;
+    margin-top: 40px;
+}
+
+.bilog-img{
+    width: 150px;
+    height: 150px;   
+}
+
+.section-2{
+    height: 400px;
+    width: 100%;
+}
+
+.section-2-div1{
+    display: flex;
+}
+
+.img-cont{
+    background: #3F0A12;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.smol-img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: flex-start;
+    margin-left: 750px;
+}
+
+.smol-img{
+    display: flex;
+}
+
+.hero3-heading{
+    font-size: 20px;
+}
+
+#section-3{
+    padding: 100px;
+}
+
+.hero3{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.sub3-head{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
